@@ -37,6 +37,134 @@ This environment showcases my ability to:
 * Provision infrastructure using Terraform.
 * Apply modern data lake and Lakehouse concepts following production-inspired practices.
 
+### Why Build Both?
+
+Building both implementations demonstrates that I understand the concepts behind distributed data engineering rather than simply knowing how to use a specific cloud service. It also highlights my ability to adapt the same architecture to different deployment models, from self-managed infrastructure for development and learning to managed cloud services commonly used in production environments.
+## Frequently Asked Questions
+
+### Why did I build this project?
+
+The objective of this project was to gain hands-on experience with modern data engineering technologies while demonstrating how the same streaming data pipeline can be implemented in both a self-managed environment and a cloud-native environment.
+
+Rather than focusing on a single technology, this project showcases the complete lifecycle of a real-time streaming pipeline—from data ingestion and processing to storage and querying.
+
+---
+
+### What problem does this project solve?
+
+Modern organizations continuously generate streaming data that must be processed efficiently for analytics and decision-making.
+
+This project demonstrates how to:
+
+- Ingest real-time cryptocurrency market data.
+- Process streaming events with distributed computing.
+- Store optimized analytical datasets.
+- Build a scalable data lake architecture.
+- Query processed data efficiently for analysis.
+
+The architecture can be adapted to many real-world streaming use cases beyond cryptocurrency.
+
+---
+
+### Why choose cryptocurrency streaming data?
+
+Cryptocurrency exchanges generate high-volume, real-time public market data, making them an excellent dataset for learning streaming architectures.
+
+It provides:
+
+- Continuous event streams
+- High-frequency updates
+- Semi-structured JSON data
+- Real-world streaming workloads
+- No authentication required for public market data
+
+This allows the project to focus on engineering challenges rather than data collection.
+
+---
+
+### Why implement the pipeline in two different environments?
+
+The project demonstrates two approaches commonly found in industry.
+
+**Local (Self-Managed)**
+
+- Learn how distributed systems work internally.
+- Configure and manage Kafka and Spark.
+- Understand infrastructure and networking.
+
+**Cloud (AWS)**
+
+- Learn how organizations build scalable managed pipelines.
+- Reduce operational overhead.
+- Demonstrate cloud-native data engineering practices.
+
+---
+
+### What technologies does this project demonstrate?
+
+This project demonstrates practical experience with:
+
+- Docker & Docker Compose
+- Apache Kafka
+- Apache Spark Structured Streaming
+- PySpark
+- Python
+- Amazon Kinesis
+- AWS Glue
+- Amazon S3
+- Apache Iceberg
+- Amazon Athena
+- Terraform
+
+---
+
+### What skills does this project showcase?
+
+The project demonstrates experience with:
+
+- Real-time data ingestion
+- Distributed stream processing
+- Infrastructure as Code (Terraform)
+- Data lake architecture
+- Lakehouse concepts
+- Cloud-native analytics
+- Containerization
+- Data modeling
+- Schema evolution
+- Production-inspired pipeline design
+
+---
+
+### Is this intended to be a production-ready system?
+
+No.
+
+The primary objective is educational and portfolio-driven while following production-inspired design principles.
+
+Where appropriate, the project incorporates concepts commonly used in production systems, such as:
+
+- Infrastructure as Code
+- ACID table formats
+- Schema evolution
+- Distributed processing
+- Cloud-native services
+- Modular architecture
+
+The goal is to demonstrate an understanding of modern data engineering practices rather than replicate a complete enterprise production platform.
+
+---
+
+### Who is this project intended for?
+
+This project is intended for:
+
+- Recruiters
+- Hiring managers
+- Data Engineers
+- Cloud Engineers
+- Students learning data engineering
+- Anyone interested in modern streaming data architectures
+
 ## Project Structure
 
 ```text
@@ -80,6 +208,4 @@ crypto-pipeline-project-1/
 | **requirement.txt**       | Python package dependencies required by the project.                                                                               |
 
 
-### Why Build Both?
 
-Building both implementations demonstrates that I understand the concepts behind distributed data engineering rather than simply knowing how to use a specific cloud service. It also highlights my ability to adapt the same architecture to different deployment models, from self-managed infrastructure for development and learning to managed cloud services commonly used in production environments.
